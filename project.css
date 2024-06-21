@@ -1,0 +1,139 @@
+.heading {
+    font-size: 2.45rem;
+}
+
+.pro {
+    max-width: 700px;
+    margin-left: 200px;
+}
+.project {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    margin: 30px 30px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.omini:hover{
+    opacity: 1;
+}
+.hm:hover{
+    opacity: 1;
+}
+.project-name p {
+    margin: 0 120px;
+}
+
+#project1 {
+    /* border: 2px solid rgb(153, 153, 226); */
+    max-width: 800px;
+    line-height: 3rem;
+    
+}
+div p {
+    font-size: 1.1rem;
+}
+button {
+    height: 20px;
+    /* width: 300px; */
+    padding: 20px 20px;
+    background-color: rgb(171, 171, 255);
+    cursor: pointer;
+    /* padding-top: 20px; */
+}
+button a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(75, 187, 187);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #0e0e1a;
+    /* height: 233px; */
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div {
+    width: 223px;
+}
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+table {
+    height: 500px;
+    width: 1000px;
+    margin: 10px 150px;
+    padding: 30px;
+    font-size: 1.1rem;
+}
+.footer ul li {
+    cursor: pointer;
+    color: #999999;
+}
+.footer ul li:hover {
+    color: white;
+}
+
+table tr :hover {
+    /* background-color: rgb(171, 147, 200); */
+    font-size: 1.25rem;
+    background-color: rgb(35, 35, 83);
+    
+}
+table th {
+    font-weight: bold;
+}
+table td {
+    padding: 50px;
+}
+hr {
+    max-width: 70vw;
+}
+
+#project2 {
+    max-width: 800px;
+    line-height: 3rem;
+    /* margin-left: %; */
+}
+
+h3 {
+    margin-right: 25%;
+}
+video {
+    cursor: pointer;
+}
+
+.homeButton {
+    /* margin-top: 20px; */
+    position: fixed;
+    top: 3px;
+    left: 3px;
+    border-radius: 88px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="navbar">
+        <nav>
+            <div class="left">Harsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#navbar">Home </a></li>
+                    <li><a href="#secondSection">About</a></li>
+                    <li><a href="#skillsWrapper">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="project.html" target="_blank+">Projects</a> </li>
+                    <li><a href="contact.html" target="_blank">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, My name is <span class="purple">Harsh</span>
+                <div>and I am a passionate </div>
+                <!-- <div>    Web Developer</div>  -->
+                <span id="element"></span>
+            </div>
+            </div>
+            <div class="rightSection">
+                <img src="/images/harsh.jpeg" style="border-radius: 50%;" alt="">
+            </div>
+        </section>
+        <hr>
+        <center>
+            <section id="secondSection">
+                <h1>About Me</h1> <br>
+                <div class="about-content">
+                    Enthusiastic and adaptable Full-Stack Developer eager to apply a solid understanding of web
+                    development gained through coursework and hands-on projects. Proficient in technologies like HTML,
+                    CSS, and JavaScript. Seeking a role where I can contribute my skills and continue to grow in a
+                    collaborative environment.
+                </div>
+            </section>
+        </center>
+        <hr>
+    </main>
+
+    <!-- Skills  -->
+    <div id="skillsWrapper">
+        <center>
+            <h1> Skills </h1>
+        </center> <br>
+        <div class="skill_left_right">
+            <div class="leftSkill_Images">
+                <img src="/images/skillimage.jfif" alt="" loading="lazy">
+            </div>
+            <div class="skillContent">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JAVA PROGRAMMING </li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+ 
+<!-- qualification -->
+<div id="education">
+    <h1>EDUCATION</h1>
+    <center>
+    <table border="0" cellpaddng="20">
+        <tr>
+            <th>
+                University / School    
+            </th>
+            <th>
+                Degree
+            </th>
+        </tr>
+        <tr>
+            <td class="uni-schl">Poornima University</td>
+            <td>Masters in Computer Application</td>
+        </tr>
+        <tr>
+            <td class="uni-schl">Rajasthan University</td>
+            <td>Bachelors of Computer Application</td>
+        </tr>
+        <tr>
+            <td class="uni-schl">Rajasthan Board</td>
+            <td>12th</td>
+        </tr>
+        <tr>
+            <td class="uni-schl">Rajasthan Board</td>
+            <td>10th</td>
+        </tr>
+        
+    </table>
+</center>
+ </div>
+<hr>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <b> Harsh's Developer Portfolio </b>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-forth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="footer-rights">
+            Copyright &#169 www.harshportfolio.com | All right reserved
+        </div>
+        <div class="link">
+
+            <!-- <center> -->
+            <a href="https://www.linkedin.com/in/h-khandelwal/">
+                <img src="/images/icons8-linkedin-4848.png" alt="" width="30px">
+            </a>   <a href="https://github.com/Harsh03541">
+                <img src="/images/icons8-github-94.png" alt="" width="30px">
+            </a>
+            <br> <br>
+        </div>
+    <!-- </center> -->
+
+
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">
+
+    </script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Full Stack Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
